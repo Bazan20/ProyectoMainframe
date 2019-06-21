@@ -1,0 +1,163 @@
+data <- read.csv2("BANCO.xlsx")
+data <- read.csv2(file = "BANCO.xlsx")
+data <- read.csv(file = "BANCO.xlsx")
+getwd()
+data <- read.csv2(file ="BANCO.xlsx")
+data <- read.table(file ="BANCO.xlsx")
+data <- read.csv(file ="BANCO.CSV")
+data <- read.csv(file ="/BANCO.CSV")
+data <- read.csv(file ="../BANCO.CSV")
+data <- read.csv("BANCO.csv")
+data <- read.csv("home/BANCO.csv")
+getwd()
+setwd("/home")
+data <- read.csv("BANCO.csv")
+data <- read.csv2("BANCO.csv")
+data <- read.csv2("/BANCO.csv")
+data <- read.csv2(file = "/BANCO.csv")
+data <- read.table(file = "/BANCO.csv")
+dataset<-read.csv(".../BANCO.csv")
+dataset<-read.csv("/BANCO.csv")
+read.csv2(file = "cbazan/BANCO.csv")
+dataset<-read.csv2(file = "cbazan/BANCO.csv")
+View(dataset)
+rm(dataset)
+dataset<-read.csv2(file = "cbazan/BCR.csv")
+dataset<-read.csv2(file = "cbazan/BCR.xlsx")
+dataset<-read.csv(file = "cbazan/BCR.xlsx")
+dataset<-read.table(file = "cbazan/BCR.xlsx")
+dataset<-read.table(file = "cbazan/BCR.xlsx")
+dataset<-read.csv(file = "cbazan/BCR.xlsx")
+dataset<-read.csv2(file = "cbazan/BCR.xlsx")
+dataset<-read.csv(file = "cbazan/BCR.csv")
+dataset<-read.csv2(file = "cbazan/BCR.csv")
+dataset<-read.csv1(file = "cbazan/BCR.csv")
+dataset<-read.csv(file = "cbazan/BCR.csv")
+dataset<-read.csv2(file = "cbazan/BCR.csv")
+dataset<-read.csv2(file = "cbazan/BCR.csv")
+dataset<-read.csv2(file = "cbazan/BCR.csv")
+dataset<-read.csv2(file = "cbazan/BCR.csv" header= True)
+dataset<-read.csv2(file = "cbazan/BCR.csv" , header = TRUE)
+dataset<-read.csv2(file = "cbazan/BCR.csv" , header = FALSE)
+dataset<-read.csv2(file = "cbazan/1.csv")
+dataset<-read.csv(file = "cbazan/1.csv")
+dataset<-read.csv(file = "cbazan/1.csv")
+dataset<-read.csv2(file = "cbazan/1.csv")
+dataset<-read.csv2(file = "cbazan/2.csv")
+dataset<-read.csv2(file = "cbazan/2.csv",unique = TRUE)
+dataset<-read.csv2(file = "cbazan/2.csv",header = FALSE,unique = TRUE)
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE)
+View(dataset)
+dataset<-read.csv(file = "cbazan/2.csv",header = TRUE)
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE)
+View(dataset)
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE , fileEncoding = utf-8)
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE , fileEncoding = "utf-8")
+View(dataset)
+dataset<-read.csv(file = "cbazan/2.csv",header = TRUE , fileEncoding = "utf-8")
+dataset<-read.csv(file = "cbazan/2.csv",header = TRUE)
+dataset<-read.csv(file = "cbazan/2.csv",header = TRUE)
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE)
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE, fileEncoding = "leng-esp")
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE, fileEncoding = "len-esp")
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE, fileEncoding = "len-es")
+dataset<-read.csv(file = "cbazan/2.csv",header = FALSE, fileEncoding = "len-sp")
+dataset<-read.csv(file = "cbazan/2.csv" , HEADER = FALSE)
+dataset<-read.csv2(file = "cbazan/2.csv" , HEADER = FALSE)
+dataset<-read.csv2(file = "cbazan/2.csv" , HEADER = TRUE)
+dataset<-read.csv2(file = "cbazan/2.csv")
+dataset<-read.csv(file = "cbazan/2.csv")
+dataset<-read.csv(file = "cbazan/2.csv", header =  FALSE)
+dataset<-read.csv(file = "cbazan/2.csv", header =  FALSE, fileEncoding = "utf-8")
+View(dataset)
+dataset<-read.csv(file = "cbazan/2.csv", header =  FALSE)
+View(dataset)
+dataset$V4 <- enc2utf8(dataset$V4)
+dataset$V4 <- enc2utf8(dataset$V4)
+dataset<- as.data.frame(dataset)
+dataset$V4 <- enc2utf8(dataset$V4)
+dataset<-read.csv(file = "cbazan/2.csv", header =  FALSE, encoding = "UTF-8" )
+View(dataset)
+install.packages("readr")
+library(readr)
+data<- read.csv(file = "cbazan/2.csv")
+data<- read.csv(file = "cbazan/2.csv", header =  FALSE)
+View(dataset)
+guess_encoding(data)
+guess_encoding(data)
+guess_encoding(data$V4)
+View(data)
+str(data)
+data[,2:60]<- lapply(as.character(data[,2:60]))
+data[,c(2:60)]<- lapply(as.character(data[,c(2:60)]))
+data[,c(2:60)] <- data.frame(lapply(data[,c(2:60)], as.character), stringsAsFactors=FALSE)
+str(data)
+guess_encoding(data$V4)
+guess_encoding(data$V4)
+installed.packages("stringi")
+library(stringi)
+install.packages("stringi")
+library(stringi)
+guess_encoding(data$V4)
+data<- read.csv(file = "cbazan/2.csv", header =  FALSE, enconding = "ISO-8859-1")
+data<- read.csv(file = "cbazan/2.csv", header =  FALSE, fileEncoding = "ISO-8859-1")
+data<- read.csv(file = "cbazan/2.csv", header =  FALSE, fileEncoding = "ISO-8859-1")
+View(data)
+data<- read.csv(file = "cbazan/2.csv", fileEncoding = "ISO-8859-1")
+View(data)
+data<- read.csv(file = "cbazan/2.csv", header =  TRUE, fileEncoding = "ISO-8859-1")
+data<- read.csv(file = "cbazan/2.csv", header =  FALSE, fileEncoding = "ISO-8859-1")
+data<- read.csv(file = "cbazan/BCR.csv", header =  FALSE, fileEncoding = "ISO-8859-1")
+View(data)
+data<- read.csv2(file = "cbazan/BCR.csv", header =  FALSE, fileEncoding = "ISO-8859-1")
+data<- read.csv2(file = "cbazan/BCR.csv", fileEncoding = "ISO-8859-1")
+View(data)
+library(dplyr)
+install.packages("dplyr")
+library(dplyr)
+IGV<-read.csv2(file = "DataSets/IGV.csv")
+IGV<-read.csv2( "DataSets/IGV.csv")
+IGV<-read.csv2( "DataSets/IGV.csv",header = FALSE,fileEncoding = "ISO-8859-1")
+View(IGV)
+IGV<-read.csv2( "DataSets/IGV.csv",fileEncoding = "ISO-8859-1")
+TribInt<-read.csv2( "DataSets/Tributo-interno.csv",fileEncoding = "ISO-8859-1")
+IR<-read.csv2(" DataSets/IR.csv",fileEncoding = "ISO-8859-1")
+ADUANAS<-read.csv2(" DataSets/ADUANAS.CSV",fileEncoding = "ISO-8859-1")
+IR<-read.csv2("DataSets/IR.csv",fileEncoding = "ISO-8859-1")
+ADUANAS<-read.csv2("DataSets/ADUANAS.csv",fileEncoding = "ISO-8859-1")
+IGV<-IGV[-307,]
+IGV<-IGV[,c(-28,-17,-8)]
+TribInt<-TribInt[,c(-28,-17,-8)]
+IR<-IR[-307,]
+IR<-IR[,c(-28,-17,-8)]
+ADUANAS<-ADUANAS[-307,-26]
+View(data)
+View(ADUANAS)
+colnames(IGV)<- c("Fecha",
+"Amazonas",
+"Ancash",
+"Apurimac",
+"Arequipa",
+"Ayacucho",
+"Cajamarca",
+"Cusco",
+"Huancavelica",
+"Hu?nuco",
+"Ica",
+"Jun?n",
+"La Libertad",
+"Lambayeque",
+"Lima",
+"Loreto",
+"Madre de Dios",
+"Moquegua",
+"Pasco",
+"Piura",
+"Puno",
+"San Mart?n",
+"Tacna",
+"Tumbes",
+"Ucayali"
+)
+View(IGV)
+IGV<-IGV %>% gather(Departamento, IGV, Amazonas:Ucayali)
